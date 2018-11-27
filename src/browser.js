@@ -735,6 +735,7 @@ class RawFileBrowser extends React.Component {
           <this.props.detailRenderer
             file={this.state.previewFile}
             close={this.closeDetail}
+	          selection={browserProps.selection}
             {...this.props.detailRendererProps}
           />
         )}
